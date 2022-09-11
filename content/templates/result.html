@@ -1,0 +1,102 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body, html {
+  height: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  top :0%;
+  right:20%;
+  margin: 20px;
+  
+  max-width: 700px;
+	font-size: 20px;
+  padding: 20px;
+  background-color: white;
+}
+.container1 {
+
+  top :60%;
+  left:20px;
+  margin: 20px;
+  
+  max-width: 700px;
+	font-size: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+
+
+.button {
+position :absolute;
+  top :10%;
+  left:	10%;
+  transform: translate(-50%, -50%);
+  -ms-transform :translate(-100%, -100%);
+  background-color: lightgreen;
+  color :white;
+  font-size: 30px;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer ;
+  
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+  a:hover {
+    color: black;
+    text-decoration: none; }
+
+</style>
+</head>
+<body>
+
+
+
+<button class="button"><a href="index.html"><i class="fa fa-home"></i></button>
+
+
+<div>
+  <form id="form" class="container"  method="post" enctype="multipart/form-data" >
+	
+  
+    <h1>Damage Assessment Completed	</h1>
+    <br>
+    <br>
+    <div>
+      {{ test }}
+    </div>
+
+	  <h2>Result</h2>
+	
+  </form>
+ 
+</div>
+
+
+</body>
+</html>
+

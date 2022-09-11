@@ -1,0 +1,4 @@
+Fourth most likely class:lamp_broken-- Probability:1.6811302e-06
+third most likely class:smash-- Probability:2.8281809e-06
+second most likely class:scratch-- Probability:9.347927e-05
+First most likely class:dent-- Probability:0.9999
